@@ -1,0 +1,27 @@
+/*fondogeneral*/
+body{
+    background-image: url(imagenes/huesitos.jpg);
+}
+/*dias*/
+.lunes, .martes, .miercoles, .jueves, .viernes{
+    font-size: 25px;
+    color: #2b5166;
+}
+.sabados{
+    font-size: 25px;
+    color: #429867;
+}
+.domingosFeriado{
+    font-size: 25px;
+    color: #e02130;
+}
+/*horarios*/
+.horarios{
+    color: #2b5166
+}
+.horarioSabado{
+    color: #429867
+}
+.cerrado{
+    color: #e02130
+}
