@@ -1,6 +1,26 @@
 /*fondogeneral*/
-body{
+.header{
     background-image: url(imagenes/huesitos.jpg);
+    height: 300px;
+    width: 100%;
+    text-align:left
+}
+.footer{
+    background-image: url(imagenes/huesitos.jpg);
+    height: 30px;
+    width: 100%;
+}
+.azuki{
+    font-size: 75px;
+    font-family: 'Darumadrop One', cursive;
+}
+}
+.lista{
+    list-style-type: none;
+}
+.logo{
+    float: right;
+    border-radius: 50%;
 }
 /*dias*/
 .lunes, .martes, .miercoles, .jueves, .viernes{
