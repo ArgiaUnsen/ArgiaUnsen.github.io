@@ -1,26 +1,45 @@
-/*fondogeneral*/
+/*encabezado y footer*/
 .header{
     background-image: url(imagenes/huesitos.jpg);
-    height: 300px;
+    height: 400px;
     width: 100%;
-    text-align:left
+    text-align:left;
+}
+.divHeader1{
+    align-content: center;
+}
+.divHeader2{
+    float: left; 
+    width: 80%
 }
 .footer{
     background-image: url(imagenes/huesitos.jpg);
     height: 30px;
     width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
 }
-.azuki{
+.azukiFuente{
+    line-height: 0px;
     font-size: 75px;
+    height: 10px;
     font-family: 'Darumadrop One', cursive;
+
 }
+.azukiSub{
+    font-size: 60px;
+    height: 50px;
 }
 .lista{
     list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    
 }
 .logo{
-    float: right;
     border-radius: 50%;
+    padding-top: 35px;
+    width: 250px
 }
 /*dias*/
 .lunes, .martes, .miercoles, .jueves, .viernes{
@@ -44,4 +63,10 @@
 }
 .cerrado{
     color: #e02130
+}
+/*contactoFormulario*/
+.formulario{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-style:groove ;
 }

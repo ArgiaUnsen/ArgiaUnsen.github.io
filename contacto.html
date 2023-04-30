@@ -6,30 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Monofett&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="imagenes/logo.png" width="200" alt=""> 
-        <h1 class="azuki">AZUKI</h1>
-        <h2>La Tienda de Azu y Zuki</h2>
-        <nav>
-            <ul>
-                <li>PRODUCTOS</li>
-                <li><a href="contacto.html" target="_blank">CONTACTO</a></li>
-                <li><a href="horarioDeAtencion.html" target="_blank">HORARIO DE ATENCION</a></li>
-                <li>REDES</li>
-            </ul>
-        </nav>
+        <div class="divHeader1">
+            <div style="float: left; width: 80%">
+                <h1 class="azukiFuente"> AZUKI</h1>
+                <h2 class="azukiFuente azukiSub">La Tienda de Azu y Zuki</h2>
+                <nav>
+                    <ul class="lista">
+                        <li>PRODUCTOS</li>
+                        <li><a href="contacto.html" target="_blank">CONTACTO</a></li>
+                        <li><a href="horarioDeAtencion.html" target="_blank">HORARIO DE ATENCION</a></li>
+                        <li>REDES</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <img class="logo" src="imagenes/logo.png"  alt=""> 
+            </div>
+            
+        </div>
           
     </header>
     <br>
     <br>
     <h2><b> DEJA TUS DATOS Y NOS COMUNICAMOS CON VOS </b></h2>
         <br>
-        <form>
+        <form class="formulario">
             <label> Nombre</label> <br>
             <input type="text" name="nomb" /> 
             <br>
@@ -60,8 +68,8 @@
             <input type="submit" value="Enviar">
             <br>
             <br>
-            <a href="index.html"> Menú principal</a>
         </form>
+        <a href="index.html"> Menú principal</a>
     <footer class="footer">
         <center><p> &copy; Argia Unsen - Todos los derechos reservados</p></center>
      </footer>
