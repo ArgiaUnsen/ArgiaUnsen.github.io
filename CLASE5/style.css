@@ -1,0 +1,116 @@
+/*encabezado y footer*/
+.header{
+    background-image: url(imagenes/huesitos.jpg);
+    height: 400px;
+    width: 100%;
+    text-align:left;
+}
+.divHeader1{
+    align-content: center;
+}
+.divHeader2{
+    float: left; 
+    width: 70%
+}
+.footer{
+    background-image: url(imagenes/huesitos.jpg);
+    height: 30px;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+.azukiFuente{
+    line-height: 0px;
+    font-size: 75px;
+    height: 10px;
+    font-family: 'Darumadrop One', cursive;
+
+}
+.azukiSub{
+    font-size: 60px;
+    height: 50px;
+}
+.lista{
+    list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    
+}
+.logo{
+    border-radius: 50%;
+    padding-top: 35px;
+    width: 300px
+}
+/*dias y horarios de atencion*/
+.lunes, .martes, .miercoles, .jueves, .viernes{
+    font-size: 25px;
+    color: #2b5166;
+}
+.sabados{
+    font-size: 25px;
+    color: #429867;
+}
+.domingosFeriado{
+    font-size: 25px;
+    color: #e02130;
+}
+/*horarios*/
+.horarios{
+    color: #2b5166
+}
+.horarioSabado{
+    color: #429867
+}
+.cerrado{
+    color: #e02130
+}
+.horariosAtencion{
+    font-family: 'Itim', cursive;
+}
+/*contactoFormulario*/
+.contacto{
+    font-family: 'Itim', cursive;
+}
+.formulario{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-style:groove ;
+}
+/*main*/
+.bienvenidos{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    font-weight:bolder;
+}
+.azula{
+    border-style:groove ; 
+     
+}
+.zuko{
+    border-style:groove ;
+    margin-top: 15px;
+}
+.divTextoAzu{
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.divFotoAzu{
+    padding-right: 15px;
+}
+.divTextoZuki{
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.divFotoZuki{
+    padding-right: 15px;
+}
