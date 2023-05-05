@@ -14,10 +14,25 @@
 }
 .footer{
     background-image: url(imagenes/huesitos.jpg);
-    height: 30px;
+    height: 200px;
     width: 100%;
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.AzukiFooter{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 25px ;
+    height: 10px;
+}
+.azukifoot{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 15px;
+}
+.redes{
+    padding-inline:inherit;
 }
 .azukiFuente{
     line-height: 0px;
