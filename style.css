@@ -21,6 +21,7 @@
     padding-top: 60px;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 25px;
 }
 .AzukiFooter{
     font-family: 'Darumadrop One', cursive;
@@ -74,24 +75,30 @@ nav ul li{
 .lunes, .martes, .miercoles, .jueves, .viernes{
     font-size: 25px;
     color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
 }
 .sabados{
     font-size: 25px;
     color: #429867;
+    font-family: 'Darumadrop One', cursive;
 }
 .domingosFeriado{
     font-size: 25px;
     color: #e02130;
+    font-family: 'Darumadrop One', cursive;
 }
 /*horarios*/
 .horarios{
-    color: #2b5166
+    color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
 }
 .horarioSabado{
-    color: #429867
+    color: #429867;
+    font-family: 'Darumadrop One', cursive;
 }
 .cerrado{
-    color: #e02130
+    color: #e02130;
+    font-family: 'Darumadrop One', cursive;
 }
 .horariosAtencion{
     font-family: 'Itim', cursive;
@@ -104,12 +111,17 @@ nav ul li{
     padding-left: 15px;
     padding-top: 15px;
     border-style:groove ;
+    font-family: 'Darumadrop One', cursive;
 }
 /*main*/
 .bienvenidos{
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
     font-weight:bolder;
+}
+.articulos{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 .azula{
     border-style:groove ; 
