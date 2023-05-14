@@ -7,8 +7,7 @@ body {
     height: calc(100vh - 10px);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); /* 2 filas de igual altura */
-    /* espacio entre los elementos */
+    grid-template-rows: repeat(3, 1fr); 
     gap: 10px;
   }
   
@@ -16,6 +15,10 @@ body {
     background-color: #73e615;
     font-size: 30px;
     text-align: center;
+    grid-column-start: 8;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 1;
   }
   .item2 {
     background-color: #f3752c;
