@@ -18,7 +18,7 @@ body {
     text-align: center;
   }
   .item2 {
-    background-color: #e45e10;
+    background-color: #f3752c;
     font-size: 30px;
     text-align: center;
   }
@@ -42,6 +42,21 @@ body {
     font-size: 30px;
     text-align: center;
   }
+  .item7 {
+    background-color: #f10e0e;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item8 {
+    background-color: #58584f;
+    font-size: 30px;
+    text-align: center;
+  }
+  .item9 {
+    background-color: #500d47;
+    font-size: 30px;
+    text-align: center;
+  }
   
   
   @media (max-width: 320px) {
@@ -50,4 +65,16 @@ body {
       grid-template-rows: repeat(3, 1fr); 
     }
   }
-
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(3, 1fr); 
+    }
+  }
+  @media (min-width: 769px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr); 
+      grid-template-rows: repeat(3, 1fr); 
+    }
+  }
+  
