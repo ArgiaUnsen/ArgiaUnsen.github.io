@@ -14,7 +14,7 @@
 }
 .footer{
     background-image: url(imagenes/huesitos.jpg);
-    height: 200px;
+    height: 300px;
     width: 100%;
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
@@ -31,6 +31,7 @@
 .azukifoot{
     font-family: 'Darumadrop One', cursive;
     font-size: 15px;
+    padding: 10px;
 }
 .redes{
     padding-inline:inherit;
@@ -41,6 +42,7 @@
     height: 10px;
     font-family: 'Darumadrop One', cursive;
     padding-left: 25px;
+    padding-top: 50px;
 
 }
 .azukiSub{
@@ -72,6 +74,9 @@ nav ul li{
     width: 300px
 }
 /*dias y horarios de atencion*/
+.tabla{
+    width: 50%;
+}
 .lunes, .martes, .miercoles, .jueves, .viernes{
     font-size: 25px;
     color: #2b5166;
