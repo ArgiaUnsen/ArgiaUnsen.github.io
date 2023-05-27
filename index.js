@@ -91,3 +91,17 @@ while (numero < 11) {
   console.log("Número es más chico que 11");
   numero++;
 }
+
+
+//Ejercitacion clase 12
+
+let persona = window.prompt("ingrese su nombre")
+function saludo(nombre) {
+  if (nombre === ""){
+    alert("Ingrese nombre")
+  }
+  else {alert("Bienvenido " + nombre)}
+}
+saludo (persona);
+
+
