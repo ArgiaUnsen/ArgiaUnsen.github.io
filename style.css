@@ -1,4 +1,5 @@
-/*encabezado y footer*/
+
+/*encabezado, main y footer*/
 .header{
     background-image: url(imagenes/huesitos.jpg);
     height: 400px;
@@ -11,6 +12,10 @@
 .divHeader2{
     float: left; 
     width: 70%
+}
+.main{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .footer{
     background-image: url(imagenes/huesitos.jpg);
@@ -76,6 +81,7 @@ nav ul li{
 /*dias y horarios de atencion*/
 .tabla{
     width: 50%;
+    margin-left: 15px;
 }
 .lunes, .martes, .miercoles, .jueves, .viernes{
     font-size: 25px;
@@ -106,11 +112,18 @@ nav ul li{
     font-family: 'Darumadrop One', cursive;
 }
 .horariosAtencion{
-    font-family: 'Itim', cursive;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 25px;
 }
 /*contactoFormulario*/
+.contenido{
+   margin-left: 15px;
+   margin-right: 15px;
+ 
+}
 .contacto{
     font-family: 'Itim', cursive;
+    font-size: 25px;
 }
 .formulario{
     padding-left: 15px;
@@ -159,4 +172,16 @@ nav ul li{
 }
 .divFotoZuki{
     padding-right: 15px;
+}
+
+/*novedades*/
+.tareas{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: dashed; color:#135c33;
+    padding-left: 15px;
+    font-family: 'Darumadrop One', cursive;
+}
+.tarea{
+    color: #2b5166;
 }
