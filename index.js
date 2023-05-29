@@ -93,15 +93,15 @@
 // }
 
 
-// //Ejercitacion clase 12
+//Ejercitacion clase 12
 
-// let persona = window.prompt("ingrese su nombre")
-// function saludo(nombre) {
-//   if (nombre === ""){
-//     alert("Ingrese nombre")
-//   }
-//   else {alert("Bienvenido " + nombre)}
-// }
-// saludo (persona);
+let persona = window.prompt("ingrese su nombre")
+function saludo(nombre) {
+  if (nombre === ""){
+    alert("Ingrese nombre")
+  }
+  else {alert("Bienvenido " + nombre)}
+}
+saludo (persona);
 
 
