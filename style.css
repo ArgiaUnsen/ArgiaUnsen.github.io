@@ -187,13 +187,7 @@ nav ul li{
     color: #2b5166;
 }
 
-/*productos*/
-.listaprod{
-    margin-left: 15px;
-    font-family: 'Darumadrop One', cursive; 
-    color: #429867;
-    
-}
+/*media querie*/
 
 @media (max-width: 800px) {
     .body {
