@@ -213,6 +213,12 @@ nav ul li{
     .body {
       background: white;
     }
+    .logo{
+        display: none;
+    }
+    .azukiSub{
+        font-size: 24px;
+    }
   }
   
   @media (min-width: 1280px) {
