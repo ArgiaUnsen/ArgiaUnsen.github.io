@@ -1,0 +1,224 @@
+
+/*encabezado, main y footer*/
+.header{
+    background-image: url(imagenes/huesitos.jpg);
+    height: 400px;
+    width: 100%;
+    text-align:left;
+    grid-column: 1 / 4;
+}
+.divHeader1{
+    align-content: center;
+}
+.divHeader2{
+    float: left; 
+    width: 70%
+}
+.main{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer{
+    background-image: url(imagenes/huesitos.jpg);
+    height: 300px;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.AzukiFooter{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 25px ;
+    height: 10px;
+}
+.azukifoot{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+.redes{
+    padding-inline:inherit;
+}
+.azukiFuente{
+    line-height: 0px;
+    font-size: 75px;
+    height: 10px;
+    font-family: 'Darumadrop One', cursive;
+    padding-left: 25px;
+    padding-top: 50px;
+
+}
+.azukiSub{
+    font-size: 60px;
+    height: 50px;
+}
+.lista{
+    list-style-type: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    display: flex;  
+}
+nav ul li{
+    margin-right: 20px;
+    margin-top: 135px;
+    
+}
+.links{
+    color: inherit; 
+    text-decoration: none;
+}
+.links:hover{
+    color:#135c33;
+    text-decoration: underline;
+}
+.logo{
+    border-radius: 50%;
+    padding-top: 35px;
+    width: 300px
+}
+/*dias y horarios de atencion*/
+.tabla{
+    width: 50%;
+    margin-left: 15px;
+}
+.lunes, .martes, .miercoles, .jueves, .viernes{
+    font-size: 25px;
+    color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
+}
+.sabados{
+    font-size: 25px;
+    color: #429867;
+    font-family: 'Darumadrop One', cursive;
+}
+.domingosFeriado{
+    font-size: 25px;
+    color: #e02130;
+    font-family: 'Darumadrop One', cursive;
+}
+/*horarios*/
+.horarios{
+    color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
+}
+.horarioSabado{
+    color: #429867;
+    font-family: 'Darumadrop One', cursive;
+}
+.cerrado{
+    color: #e02130;
+    font-family: 'Darumadrop One', cursive;
+}
+.horariosAtencion{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 25px;
+}
+/*contactoFormulario*/
+.contenido{
+   margin-left: 15px;
+   margin-right: 15px;
+ 
+}
+.contacto{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+}
+.formulario{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-style:groove ;
+    font-family: 'Darumadrop One', cursive;
+}
+/*main*/
+.bienvenidos{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    font-weight:bolder;
+}
+.articulos{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.azula{
+    border-style:groove ; 
+     
+}
+.zuko{
+    border-style:groove ;
+    margin-top: 15px;
+}
+.divTextoAzu{
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.divFotoAzu{
+    padding-right: 15px;
+}
+.divTextoZuki{
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 40px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.divFotoZuki{
+    padding-right: 15px;
+}
+
+/*productos*/
+
+.productos{
+    font-size: 25px;
+    color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
+}
+
+/*novedades*/
+.tareas{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: dashed; color:#135c33;
+    padding-left: 15px;
+    font-family: 'Darumadrop One', cursive;
+}
+.tarea{
+    color: #2b5166;
+}
+
+/*media querie*/
+
+@media (max-width: 800px) {
+    .body {
+      background: white;
+    }
+    .logo{
+        display: none;
+    }
+    .azukiSub{
+        font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1280px) {
+
+      .body {
+        background: white;
+    }
+  }
+  
+  
+  @media (min-width: 1280px) {
+    .body {
+      background: white;
+    }
+  }
