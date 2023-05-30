@@ -175,6 +175,14 @@ nav ul li{
     padding-right: 15px;
 }
 
+/*productos*/
+
+.productos{
+    font-size: 25px;
+    color: #2b5166;
+    font-family: 'Darumadrop One', cursive;
+}
+
 /*novedades*/
 .tareas{
     margin-left: 15px;
@@ -192,6 +200,12 @@ nav ul li{
 @media (max-width: 800px) {
     .body {
       background: white;
+    }
+    .logo{
+        display: none;
+    }
+    .azukiSub{
+        font-size: 24px;
     }
   }
   
