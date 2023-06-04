@@ -207,17 +207,29 @@ nav ul li{
     .azukiSub{
         font-size: 24px;
     }
+    .lista{
+        font-size: 15px;
+    }
   }
   
-  @media (min-width: 800px) and (max-width: 1280px) {
+  @media (min-width: 800px) and (max-width: 1017px) {
 
       .body {
         background: white;
     }
+    .logo{
+        display: none;
+    }
+    .azukiSub{
+        font-size: 30px;
+    }
+    .lista{
+        font-size: 20px;
+    }
   }
   
   
-  @media (min-width: 1280px) {
+  @media (min-width: 1018px) {
     .body {
       background: white;
     }
