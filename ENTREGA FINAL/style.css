@@ -197,7 +197,7 @@ nav ul li{
 
 /*media querie*/
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
     .body {
       background: white;
     }
